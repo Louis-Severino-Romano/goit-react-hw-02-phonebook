@@ -44,7 +44,7 @@ export class App extends Component {
     const { contacts, filter } = this.state;
     return (
       <div>
-        <h1>My Phonebook</h1>
+        <h1>Phonebook</h1>
         <ContactForm addContact={this.addContact} contacts={contacts} />
 
         <h2>Contacts</h2>
